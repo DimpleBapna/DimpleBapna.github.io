@@ -74,7 +74,8 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     top: 0;
     left: 0;
     right: 0;
@@ -237,8 +238,7 @@ footer {
 
 #lead-content {
     position: relative;
-    z-index: 10;
-    text-align: center;
+    z-index: 10;    text-align: center;
 
     h1, h2 {
         margin: 0;
@@ -508,7 +508,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1500px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
